@@ -1,23 +1,58 @@
+.body {
+    font-family: arial;
 
 
+}
 
 
-.profile-box {
-    height: 100vh;
+.image-background {
+    height: 80vh;
     width: 100vw;
     background-image: url('https://images.unsplash.com/photo-1439853949127-fa647821eba0?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=61558dee600463841f0a9f6692c11767&auto=format&fit=crop&w=1268&q=80');
     background-position: center;
     background-size: cover;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
 }
-
 .profile-content {
     color: rgb(0, 0, 0);
     text-align: center;
     width: 400px;
-    padding: 40px;
-    background-color: rgba(255, 255, 255, .8);
+    padding: 20px;
+    background-color: rgba(255, 255, 255, .5);
     border: 1px solid #545454;
 }
+.link-box {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 400px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, .5);
+    border: 1px solid #545454;
+}
+.link-details {
+    a:link {
+        color: green;
+        background-color: transparent;
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: pink;
+        background-color: transparent;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: red;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+
+    a:active {
+        color: yellow;
+        background-color: transparent;
+        text-decoration: underline;
+    }
